@@ -1,0 +1,32 @@
+  int Change_Value = 0;                        //int is a keyword,change_value is an identifier.
+  int Sum_it (int, int);                       //int is a keyword, sum_it is an identifier.
+  void error_with_code (void);                 //void is a keyword, error_with_code is an identifier.
+ int main (void)                               //int is a keyword, main is an identifier.
+ {  
+    int Arg_1 = 20, Arg_2 = 40;                //int is a keyword, Arg_1 & Arg_2 are identifiers.
+    int i;                                     //int is a keyword, i is an identifier.
+     for (i = 0; i < 10;i++)                   //for is a keyword, i is an identifier,10 is a constant.  
+     {
+        if (Arg_1 > Arg_2)                     //if is a keyword, Arg_1 & Arg_2 is an identifier.
+             Arg_2 = Sum_it (Arg_1, Arg_2);    //all are identifers. 
+        else                                   //else is a keyword.
+            Arg_1 = Sum_it (Arg_1, Arg_2);     //all are identifiers.
+     }
+     error_with_code ();                       //all are identifiers.
+ }   /* End of main() */
+
+ int Sum_it (int a, int b)                     //int is a keyword, sum_it is an identifier.
+ {
+     return a+b;                               //return is a keyword.
+ } /* End of Sum_it */
+
+ void error_with_code(void)                    //void is a keyword, error_with_code is an identifier.
+ {
+    int divide_value;                          //int is a keyword, divide_value is an identifier.
+    int result;                                //int is a keyword, result is an identifier.
+    divide_value = Change_Value;               //all are identifiers.
+    result = 10 / divide_value;                //result is an identifier, 10 is a constant.
+    return ;                                   //return is a keyword.
+
+ } /* End of error_with_code() */
+
