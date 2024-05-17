@@ -1,0 +1,13 @@
+ DATA TYPES                              FORMAT SPECIFIERS
+
+ int                                     %d                                   
+ unsigned int                            %u
+ short int                               %hd
+ unsigned short int                      %hu
+ float                                   %f
+ double                                  %lf
+ long double                             %LF
+ char                                    %c
+ unsigned char                           %c
+ long int                                %ld 
+ unsigned long int                       %lu       
