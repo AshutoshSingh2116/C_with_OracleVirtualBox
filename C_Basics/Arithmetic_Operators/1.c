@@ -1,3 +1,8 @@
+
+
+// Write a program that reads an integer and displays the right-most digit of the number.
+
+
 #include<stdio.h>
 
 int main()
