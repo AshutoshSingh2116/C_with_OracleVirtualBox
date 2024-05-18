@@ -18,3 +18,11 @@ printf("The number is:%d",d);
 return 0;
 
 }
+
+
+//Output: 
+//    a=456; 
+//    d=a%10; 
+//    d=456%10 
+//     =6
+
