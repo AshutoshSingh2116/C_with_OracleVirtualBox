@@ -1,3 +1,6 @@
+//Read a 4 digit number and print it in the following formats:
+
+
 #include<stdio.h>
 int main()
 {
