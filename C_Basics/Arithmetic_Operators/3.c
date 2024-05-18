@@ -23,3 +23,18 @@ return 0;
 
 
 }
+
+
+//Output:  x=1, y=2, z=3
+//           d=x, d=1=x
+//           x=y, x=2
+//           y=z, y=3
+//           z=d, z=1
+// New values of x,y,z after rotation are:
+//        x=2
+//        y=3 
+//        z=1  
+
+
+
+
