@@ -1,3 +1,6 @@
+//Input 3 digits, read them into three different characters. Make one integer out of them and display.
+
+
 #include<stdio.h>
 int main()
 {
