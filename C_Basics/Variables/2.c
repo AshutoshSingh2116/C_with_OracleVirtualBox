@@ -4,38 +4,38 @@
 
  {
 
- int a;
+	 int a;
 
- unsigned int b;
+	 unsigned int b;
 
- short int c;
+	 short int c;
 
- unsigned short int d;
+	 unsigned short int d;
 
-  float e;  
+ 	 float e;  
 
- double f;  
+	 double f;  
 
-  long double g; 
+ 	 long double g; 
 
-  char h;   
+ 	 char h;   
 
-  unsigned char i;
+ 	 unsigned char i;
 
- long int j; 
+	 long int j; 
 
-  unsigned long int k;
+ 	 unsigned long int k;
 
-printf("Take input from user for all the variables");
+	printf("Take input from user for all the variables");
 
-scanf("%d%u%hd%hu%f%lf%LF%ld%lu",&a,&b,&c,&d,&e,&f,&g,&j,&k);
-scanf("%c",&i);
-scanf("%c",&h);
+	scanf("%d%u%hd%hu%f%lf%LF%ld%lu",&a,&b,&c,&d,&e,&f,&g,&j,&k);
+	scanf("%c",&i);
+	scanf("%c",&h);
 
-printf("%d %u %hd %hu %f %lf %LF %ld %lu",a,b,c,d,e,f,g,j,k);                           
-printf("%c",i);
-printf("%c",h);
+	printf("%d %u %hd %hu %f %lf %LF %ld %lu",a,b,c,d,e,f,g,j,k);                           
+	printf("%c",i);
+	printf("%c",h);
 
-return 0;
+	return 0;
 
 }                                                                                                                                                                                                                                                                   
