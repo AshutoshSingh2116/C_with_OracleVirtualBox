@@ -15,7 +15,7 @@ int main()
 			if(a>d)
 				printf("a is larger");
 			else 
-				printf("a is not larger");
+				printf("d is  larger");
 		}
 
 	}
@@ -25,7 +25,7 @@ int main()
 		if(b>d)
 			printf("b is larger");
 		else
-			printf("b is not larger");
+			printf("d is larger");
 	}
 	
 	else if(c>d)
