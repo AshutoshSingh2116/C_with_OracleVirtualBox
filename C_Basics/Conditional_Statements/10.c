@@ -4,15 +4,16 @@
 int main()
 {
 	int year;
-	printf("Enter a year");
+	printf("Enter a year:");
 	scanf("%d",&year);
 
-	if(year%4==0)
+	 if(year%100!=0)
+
 	{
-		if(year%100!=0)
+		if(year%4==0)
 			printf("Its a leap year");
 		else
-			printf("Its not a leap year");
+	                printf("Its anot a leap year");
 	}
 	
 	else if(year%400==0)
