@@ -12,6 +12,8 @@ int main()
 	{
 		if(a>c)
 			printf("a is larger:%d\n",a);
+                else
+			printf("c is larger");
 
 	}
 

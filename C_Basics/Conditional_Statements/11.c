@@ -18,6 +18,14 @@ int main()
 				printf("d is  larger");
 		}
 
+		else if(c>d)
+		{
+			printf("c is larger");
+		}
+
+		else 
+
+			printf("d is larger");
 	}
 
 	else if(b>c)
