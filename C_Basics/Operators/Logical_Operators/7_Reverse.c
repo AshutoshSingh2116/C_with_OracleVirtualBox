@@ -15,14 +15,15 @@ int main()
 		printf("%c\n",c);
 	}
 
-	else if(c<=97 && c<=122)
+	else if(c>=97 && c<=122)
 	{
 		c=c-32;
 		printf("%c\n",c);
-                //printf("please enter an alphabet\n");
-	}
-	//else
-	//	printf("please enter an alphabet\n");
+         }      
+	else 
+		printf("Not an Alphabet\n");
+
+	
        
 return 0;
 }
