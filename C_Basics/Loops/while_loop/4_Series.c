@@ -4,30 +4,37 @@
 #include<stdio.h>
 int main()
 {
-	int n,i=1;float d=0;
+	int n,i=2;
 
-	rintf("Enter the value of n:");
+	printf("Enter the value of n:");
 	scanf("%d",&n);
+	printf("1");
 
 	while(i<=n)
 	{
-		if(i%2==0)
-			d=d-1.00/i;
-		else
-			d=d+1.00/i;
-		i++;
-	}
 
-	printf("Sum is:%f\n",d);
+		if(i%2==0)
+		{
+			printf("-1/%d",i);
+		}
+		else
+		{
+			printf("+1/%d",i);
+}
+			i++;
+
+		
+	}
+	printf("\n");
 	return 0;
 }
 
-/* OUTPUT: 
+/* OUTPUT:: 
 
-	Enter the value of n:4
-	Sum is:0.583333
+	Enter the value of n:3
+	1-1/2+1/3  
 
-
-	Enter the value of n:4
-	Sum is:0.583333     */
+	Enter the value of n:5
+	1-1/2+1/3-1/4+1/5
+ */
 
