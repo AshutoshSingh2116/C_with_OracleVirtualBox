@@ -1,6 +1,7 @@
 ## DATE:05-05-2024;  TOPIC:LOOP PATTERN PRINTING
 
 1.	using while ,do while and for loops :
+
 	/*  
 	/* *  
 	/* * *  
@@ -8,6 +9,7 @@
 	/* * * * *  
 
 2.	using while ,do while and for loops :
+
 	/* * * * *  
 	/* * * *  
 	/* * *  
@@ -16,6 +18,7 @@
 
 
 3.	using while ,do while and for loops :
+
 	/* * * * *  
 	  /* * * *  
 	    /* * *  
@@ -25,14 +28,15 @@
 
 4.	using while ,do while and for loops : 
 
-            	    *  
-         	  * *  
-       	        * * *  
-     	      * * * *  
-	    * * * * *  
+            	    /*  
+         	  /* *  
+       	        /* * *  
+     	      /* * * *  
+	    /* * * * *  
 
 
 5. using while ,do while and for loops :
+
           / *
         / *   *
       / *   *   *
