@@ -23,12 +23,13 @@
 	        /*  
 
 
-4.	using while ,do while and for loops :
-            *  
-          * *  
-        * * *  
-      * * * *  
-    * * * * *  
+4.	using while ,do while and for loops : 
+
+            	    *  
+         	  * *  
+       	        * * *  
+     	      * * * *  
+	    * * * * *  
 
 
 5. using while ,do while and for loops :
