@@ -1,0 +1,142 @@
+Case 1: Local and global variable is same then local has higher priority.
+
+#include<stdio.h>
+int x=10;
+
+int main()
+{
+int x=10;
+printf("%d",x);
+}
+
+OUTPUT is: 10.
+
+*****************************************************************************
+
+Case 2: Scope of child block
+
+#include<stdio.h>
+int x=5;
+
+int main()
+{
+x=10;
+sum()
+}
+int sum()
+{
+printf("%d",x);
+}
+
+OUTPUT is: 5.
+
+******************************************************************************
+
+Case 3: Without function parameter and global declaration
+
+#include<stdio.h>
+int main()
+{
+int x=2;
+printf("%d,x");
+sum();
+printf("%d",x);
+}
+int sum()
+{
+int x=4;
+printf("%d",x);
+}
+
+OUTPUT:
+x=
+x=
+x=
+
+*********************************************************************************
+
+Case 4:Function Parameter
+
+#include<stdio.h>
+int sum();
+int main()
+{
+int x=3;
+printf("%d\n",x);
+sum(16);
+}
+int sum(int y)
+{
+
+printf("%d",y);
+}
+
+OUTPUT:
+x=3
+y=16
+
+**********************************************************************************
+
+Case 5: Executable Statements within the blocks.
+
+#include<stdio.h>
+int x=10;
+
+int main()
+{
+x=5;
+printf("%d",x);
+}
+
+OUTPUT:
+x=5
+
+***********************************************************************************
+
+Case 6:  Different data types, same variable within block(not allowed) but outside block (allowed).
+
+#include<stdio.h>
+int sum();
+int x=10;
+int main()
+{
+
+float x=2;
+int x=4;
+printf("%d",x);
+sum()
+printf("%d",x);
+}
+
+int sum()
+{
+printf("%d",x);
+}
+
+OUTPUT:
+
+It will throw an error because different datatypes of same variable within same block is not allowed.
+
+***************************
+***************************
+
+#include<stdio.h>
+int sum();
+int x=10;
+int main()
+{
+int x=4;
+printf("%d",x);
+sum();
+printf("%d",x);
+}
+
+float x =3.00;
+int sum();
+{
+printf("%d",x)
+}
+
+OUTPUT:
+
+It will throw an error because globally different data types of same variable are defined which is not allowed.
