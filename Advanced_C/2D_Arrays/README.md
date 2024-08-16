@@ -2,9 +2,9 @@ Date:15-08-2024  Topic:2D-Arrays Assignments
 
 1. Declare a two-dimensional array of elements for sales details of a store, for each item, fo   r each salesman. Take the sales values as input and print the array in matrix form.
    Find out and print the following :
-   1 ) Total sales by each sales man
-   2 ) Total sales for a item
-   3 ) Total sales
+   a ) Total sales by each sales man
+   b ) Total sales for a item
+   c ) Total sales
 2. Write the following program :
    Declare a two dimensional array of elements and find and print its transpose.
    eg., if the matrix is :       1 3
