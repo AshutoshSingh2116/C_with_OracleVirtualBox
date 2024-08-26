@@ -19,9 +19,9 @@ int main()
 
 {
 
-              struct student s1={1,"krishna"};
+              struct student s1={1,"Ashutosh"};
 
-              struct student s2={1,"krishna"};
+              struct student s2={1,"Ashutosh"};
 
               if((s1.id==s2.id)&&(strcmp(s1.name,s2.name)==0))
 
