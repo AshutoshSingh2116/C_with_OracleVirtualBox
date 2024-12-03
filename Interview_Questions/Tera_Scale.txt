@@ -1,0 +1,16 @@
+  Tera-Scale Interview Questions 
+__________________________________
+
+1. Find if the given string is palindrome or not ? 
+2. Count number of 1's in given binary number ?
+3. find second largest element in given array ?
+4. write a function to toggle LED for every 1 sec, assuming a function for timer initialization and timer interrupt given 
+5. write a function that will allocate memory dynamically for an integer array of n elements. take elements from user and find sum of elements in array.
+6. When, why and how we handle interrupts in ADC and UART in V2.0?
+7. Is SPI present in V2.0?
+8. Full form of TTL?
+9. Interrupts are given by the device to processor or processor to device?
+10.Block Diagram of V2.0?
+11.What is RTC and what is its purpose?
+12.Purpose of LM35 sensor?
+13.Purpose of LCD?
