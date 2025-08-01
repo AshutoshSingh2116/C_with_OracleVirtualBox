@@ -137,4 +137,5 @@ float percentage(int arr[6],float *per)
 
               return *per;
 
+
 }
